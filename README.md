@@ -1,30 +1,25 @@
-Approximation de la valeur de Pi
-grâce à la méthode de Monte-Carlos:
+Pi approximation
+through Monte-Carlos' method:
 -----------------------------------
 
-Grâce à la méthode de Monte-Carlos,on est capable d'approcher la valeur de
-pi en fonction de la circonference d'un cercle.
+Through Monte-Carlos' method we can approximate the value of pi according
+to the circumference of a circle.
 
-Le principe est simple, en imaginant que le cercle est une cible de
-flechette dont le diamètre est égal à la longueur d'un côté du carré
-qui l'entoure.
-On va essayer de lancer des flechettes dans la cible.
+Let's imagine the circle is a darts game's target. The target is surrounded
+by a square, with sides lenght equals to the target's diameter.
+We try to reach the target throwing darts.
 
-- Les flechettes qui ont atteint la cible sont des point bleus
-- Les flechettes qui  n'ont pas atteint la cible sont rouges 
+- The ones hiting the target are colored in blue
+- The ones missing the target are colored in red
 
-Le principe est de jeter un grand nombre de fléchettes sur une cible carrée,
-puis de déterminer la proportion des fléchettes arrivées dans le cercle
- (points rouge) inscrit au carré. On utilise pour cela, le rapport entre
- l’aire du cercle et celle de la cible.
+The principle is as follows: 
 
-Ainsi plus l'on lancera de flechettes et plus la valeurs approchée sera 
-proche de la valeur exacte de pi.
+We throw a large number of darts and we calculate the success ratio using
+areas of the target and the square. 
 
+The more darts are thrown the closer we get to pi value.
 
-N.b : Pour représenter graphiquement ce projet, j'ai utilisé un module
-crée par l'auteur de : Python Programming: An Introduction to Computer
- Science, 3rd Edition (voir le pdf joint à ce repository github).
-Ce module est appelé graphics.py (voir repository github) et est egalement 
-disponible sur le site de l'auteur, John Zelle, à l'adresse suivante : 
-https://mcsp.wartburg.edu/zelle/python/graphics.py
+NB: In oreder to represent the darts game, I used a small module created
+by the author of Python Programming: An Introduction to Computer
+ Science, 3rd Edition. The module mentioned above, called graphics.py,
+is also available at https://mcsp.wartburg.edu/zelle/python/graphics.py
