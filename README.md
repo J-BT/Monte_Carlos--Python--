@@ -19,7 +19,7 @@ areas of the target and the square.
 
 The more darts are thrown the closer we get to pi value.
 
-NB: In oreder to represent the darts game, I used a small module created
+NB: In order to represent the darts game, I used a small module created
 by the author of Python Programming: An Introduction to Computer
  Science, 3rd Edition. The module mentioned above, called graphics.py,
 is also available at https://mcsp.wartburg.edu/zelle/python/graphics.py
