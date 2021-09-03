@@ -1,6 +1,8 @@
 Pi approximation
 through Monte-Carlos' method:
 -----------------------------------
+(Project realized during my first week's training at digifab school 
+in early 2020)
 
 Through Monte-Carlos' method we can approximate the value of pi according
 to the circumference of a circle.
